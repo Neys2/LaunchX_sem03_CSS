@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/28e2cdd1c0.js" crossorigin="anonymous"></script>
     <title>Vacunación - Principal</title>
 </head>
 
@@ -13,7 +14,7 @@
     <nav class="menu">
         <ul>
             <li class="principal">
-                <a href="#">Vaccination</a>
+                <a href="#"> <strong>Vaccination</strong></a>
             </li>
             <li>
                 <a href="#">Database</a>
@@ -36,132 +37,199 @@
         <div class="formas"></div>
         <div class="textoIzqA">
             <h1>Fight Virus With Vaccines</h1>
-            <p>Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected</p>
-            <div class="star1"><p class="icono">Best protection Selected Vaccines</p></div>
-            <div class="star2"> <p>Schedule your vaccinations</p></div>
+            <p>Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get
+                infected
+            </p>
+            <div class="par">
+                <div class="star1">
+                    <p class="icono"><i class="fa-solid fa-shield-blank"></i>Best protection</p>
+                </div>
+                <div class="star2">
+                    <p><i class="fa-solid fa-star"></i>Selected Vaccines</p>
+                </div>
+            </div>
+            <div class="schedule">
+                <strong><i class="fa-solid fa-clock"></i>Schedule your vaccinations</strong>
+            </div>
         </div>
         <div class="imgDer">
             <img src="./img/wmn-blue.png" alt="nurse with vaccine" width="100%" height="100%">
         </div>
         <div class="formas"></div>
-        <div class="fomato">
+        <div class="formato">
             <form action="">
-                <label for="loc">Location</label>
-                <input type="text" name="form" value="">
-                <label for="date">Date</label>
-                <input type="date" name="form" value="date">
-                <label for="vacc">Vaccine Type</label>
-                <input type="text" name="form" value="">
+                <div class="formGrid">
+                    <div>
+                        <label for="loc"><i class="fa-solid fa-location-dot"></i>Location</label><br>
+                        <input type="text" name="form" value="loc">
+                    </div>
+                    <div>
+                        <label for="date"><i class="fa-solid fa-calendar-days"></i>Date</label><br>
+                        <input type="date" name="form" value="date">
+                    </div>
+                    <div>
+                        <label for="vacc"><i class="fa-solid fa-syringe"></i>Vaccine Type</label><br>
+                        <input type="text" name="form" value="type">
+                    </div>
+                    <div class="btn">
+                        <a href="#">Submit</a>
+                    </div>
+                </div>
             </form>
         </div>
-        <div class="vacunas">
-            <img class="marcas" src="./img/astra.png" alt="aztraseneca logo">
-            <img class="marcas" src="./img/sinovac.png" alt="sinovac logo">
-            <img class="marcas" src="./img/moderna.png" alt="logo moderna">
-            <img class="marcas" src="./img/logo-pfizer.png" alt="pfizer logo">
+        <div class="contVacunas">
+            <div class="vacunas">
+                <a href="#"> <img class="marcas" src="./img/astra.png" alt="aztraseneca logo"> </a>
+                <a href="#"> <img class="marcas sinovac" src="./img/sinovac.png" alt="sinovac logo"> </a>
+                <a href="#"> <img class="marcas" src="./img/moderna.png" alt="logo moderna" href="#"> </a>
+                <a href="#"> <img class="marcas" src="./img/logo-pfizer.png" alt="pfizer logo" href="#"> </a>
+            </div>
         </div>
     </section>
     <section class="media">
         <div class="textoIzq">
             <h2>Why should I vaccine?</h2>
-            <p>In order to avoid any doubts about getting the COVID-19 vaccine, identify the following 4 beneficts o COVID-19 vaccination:</p>
-            <div class="bloqueC1">
-                <P>Minimize the spread of virses</P>
-                <p>Vaccine has been proven effective to prevent someone from getting infected with Coronavirus</p>
-            </div>
-            <div class="bloqueC2">
-                <p>Forming antibodies</p>
-                <p>COVID-19 vaccine proven to help shape antibody response for immune system</p>
-            </div>
-            <div class="bloqueC3">
-                <p>Protection people nearby</p>
-                <p>The beneficts of COVID-19 vacination are the vaccine that we get can also help protect people around us</p>
-            </div>
-            <div class="bloqueC4">
-                <p>Creating gourp immunity</p>
-                <p>COVID-19 vacination is also beneficial for creating group immunity or herd immunity</p>
+            <p>In order to avoid any doubts about getting the COVID-19 vaccine, identify the following 4 beneficts of COVID-19 vaccination:</p>
+            <div class="contRazons">
+                <div class="razons">
+                    <div class="bloqueC1">
+                        <i class="fa-solid fa-viruses"></i>
+                        <h3>Minimize the spread of virses</h3>
+                        <p>Vaccine has been proven effective to prevent someone from getting infected with Coronavirus</p>
+                    </div>
+                    <div class="bloqueC2">
+                        <i class="fa-solid fa-shield-virus"></i>
+                        <h3>Forming antibodies</h3>
+                        <p>COVID-19 vaccine proven to help shape antibody response for immune system</p>
+                    </div>
+                    <div class="bloqueC3">
+                        <i class="fa-solid fa-user-group"></i>
+                        <h3>Protection people nearby</h3>
+                        <p>The beneficts of COVID-19 vacination are the vaccine that we get can also help protect people
+                            around us</p>
+                    </div>
+                    <div class="bloqueC4">
+                        <i class="fa-solid fa-dna"></i>
+                        <h3>Creating gourp immunity</h3>
+                        <p>COVID-19 vacination is also beneficial for creating group immunity or herd immunity</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section class="maskPart">
-        <img class="imgIzq" src="./img/wmn.png" alt="Woman with mask">
-        <div>
-            <p>Preparations Before Vaccine</p>
-            <p>The success of vaccines is strongly influenced by the strength of the body's immune system. Threfore, there are several things that can be tried to make the COVID-19 vaccine work:</p>
+        <div class="imgIzq">
+            <img src="./img/wmn.png" alt="Woman with mask">
         </div>
-        <div>
+        <div class="der">
+            <h2>Preparations Before Vaccine</h2>
+            <p>The success of vaccines is strongly influenced by the strength of the body's immune system. Threfore,
+                there are several things that can be tried to make the COVID-19 vaccine work:</p>
+        </div>
+        <div class="dere">
             <details class="infoHide">
-                <summary>Avoid alcoholic beverages</summary>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non justo nisl. Maecenas in porta felis.Quisque finibus porttitor justo, eget varius mi condimentum non.</p>
+                <summary><i class="fa-solid fa-circle-xmark"></i>Avoid alcoholic beverages</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non justo nisl. Maecenas in porta
+                    felis.Quisque finibus porttitor justo, eget varius mi condimentum non.</p>
             </details>
             <details>
-                <summary>Avoid stress</summary>
-                <p>Stress has a profound effect on immune work.Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.</p>
+                <summary><i class="fa-solid fa-square-xmark"></i>Avoid stress</summary>
+                <p>Stress has a profound effect on immune work.Moreover, prolonged stress can increase cortisol
+                    production and oxidative stress in the body.</p>
             </details>
             <details class="infoHide">
-                <summary>Eat healthy food</summary>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non justo nisl. Maecenas in porta felis.Quisque finibus porttitor justo, eget varius mi condimentum non.</p>
+                <summary><i class="fa-solid fa-carrot"></i>Eat healthy food</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non justo nisl. Maecenas in porta
+                    felis.Quisque finibus porttitor justo, eget varius mi condimentum non.</p>
             </details>
             <details class="infoHide">
-                <summary>Get enough sleep</summary>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non justo nisl. Maecenas in porta felis.Quisque finibus porttitor justo, eget varius mi condimentum non.</p>
+                <summary><i class="fa-solid fa-moon"></i>Get enough sleep</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non justo nisl. Maecenas in porta
+                    felis.Quisque finibus porttitor justo, eget varius mi condimentum non.</p>
             </details>
             <details class="infoHide">
-                <summary>Exercise or physical activity</summary>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non justo nisl. Maecenas in porta felis.Quisque finibus porttitor justo, eget varius mi condimentum non.</p>
+                <summary><i class="fa-solid fa-heart"></i>Exercise or physical activity</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non justo nisl. Maecenas in porta
+                    felis.Quisque finibus porttitor justo, eget varius mi condimentum non.</p>
             </details>
         </div>
     </section>
+    <div class="textoIzqB">
+        <h2>Emergency Contact</h2>
+        <p>Contact one of the contacts bellow if you or your family feel inwell and have similar symptoms such
+            as Covid-19, make sure you also take care of youserlf before reporting to us:</p>
+    </div>
     <section class="finalPart">
-        <img class="imgDer" src="./img/enfermero.png" alt="Nurseman">
-        <div class="textoIzqB">
-            <p>Emergency Contact</p>
-            <p>Contact one of the contacts bellow if you or your family feel inwell and have similar symptoms such as Covid-19, make sure you also take care of youserlf before reporting to us:</p>
+        <div class="imgDerB">
+            <img src="./img/man.png" alt="Nurseman">
         </div>
-        <div class="datosDer">
-            <div class="bloqueIzq">
-                <p>Call</p>
-                <p>021.123.145.14</p>
-            </div>
-            <div class="bloqueIzq">
-                <p>Chat</p>
-                <p>021.123.145.14</p>
-            </div>
-            <div class="bloqueDer">
-                <p>Video Call</p>
-                <p>021.123.145.14</p>
-            </div>
-            <div class="bloqueDer">
-                <p>Message</p>
-                <p>021.123.145.14</p>
+        <div class="fpDER">
+            <div class="datosDer">
+                <div class="cuadro">
+                    <div class="bloqueIzq">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <p>Call</p>
+                        <p>021.123.145.14</p>
+                    </div>
+                    <div class="bloqueIzq">
+                        <div class="icon">
+                            <i class="fa-solid fa-comment-dots"></i>
+                        </div>
+                        <p>Chat</p>
+                        <p>021.123.145.14</p>
+                    </div>
+                    <div class="bloqueDer">
+                        <div class="icon">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                        <p>Video Call</p>
+                        <p>021.123.145.14</p>
+                    </div>
+                    <div class="bloqueDer">
+                        <div class="icon">
+                            <i class="fa-solid fa-message"></i>
+                        </div>
+                        <p>Message</p>
+                        <p>021.123.145.14</p>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
     <footer>
-        <div class="lema">
-            <p>Vaccination</p>
-            <p>Our goal is to help the world free from the ongoing pandemic</p>
+        <div class="feet">
+            <div class="gridFoot">
+                <div class="lema">
+                    <h3>Vaccination</h3>
+                    <p>Our goal is to help the world free from the ongoing pandemic</p>
+                </div>
+                <div class="about">
+                    <h3>About</h3>
+                    <a href="#">About Us</a><br>
+                    <a href="#">Features</a><br>
+                    <a href="#">News & Blog</a><br>
+                </div>
+                <div class="company">
+                    <h3>Company</h3>
+                    <a href="#">How We Work</a><br>
+                    <a href="#">Capital</a><br>
+                    <a href="#">Security</a>
+                </div>
+                <div class="support">
+                    <h3>Support</h3>
+                    <a href="#">FAQs</a><br>
+                    <a href="#">Support Center</a><br>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="logo"></div>
+                <div class="derechos"></div>
+            </div>
+
         </div>
-        <div class="about">
-            <h1>About</h1>
-            <a href="#">About Us</a>
-            <a href="#">Features</a>
-            <a href="#">News & Blog</a>
-        </div>
-        <div class="company">
-            <h1>Company</h1>
-            <a href="#">How We Work</a>
-            <a href="#">Capital</a>
-            <a href="#">Security</a>
-        </div>
-        <div class="support">
-            <h1>Support</h1>
-            <a href="#">FAQs</a>
-            <a href="#">Support Center</a>
-            <a href="#">Contact Us</a>
-        </div>
-        <div class="logo"></div>
-        <div class="derechos"></div>
+        
     </footer>
 
 </body>

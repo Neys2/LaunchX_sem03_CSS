@@ -86,11 +86,6 @@ nav ul li a:hover{
     color: rgb(0, 75, 173);
     background-color: rgb(201, 223, 253);
 }
-.razons i{
-    padding: 5px;
-    color: rgb(0, 75, 173);
-    background-color: rgb(201, 223, 253);
-}
 details summary{
     margin: 25px;
     color:rgb(3, 3, 119);
@@ -109,6 +104,7 @@ details > summary:-webkit-details-marker {
     display: none;
 }
 .dere i{
+    margin-right: 10px;
     padding: 5px;
     color: rgb(0, 75, 173);
     background-color: rgb(201, 223, 253);
@@ -177,6 +173,7 @@ details > summary:-webkit-details-marker {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 25px;
     margin: 10px 0;
+    padding: 50px;
 }
 .contVacunas{
     padding: 50px;
@@ -203,6 +200,10 @@ details > summary:-webkit-details-marker {
     margin-left: 50px;
     width: 50%;
     height: 300px;
+    font-size: 20px;
+}
+.textoIzq h2{
+    font-size: 30px;
 }
 .cuadro p{
     font-size:small;
@@ -211,7 +212,8 @@ details > summary:-webkit-details-marker {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 1fr 1fr;
-    padding: 5px;
+    padding: auto;
+    padding-left: 20%;
     gap: 10px;
 }
 .texto{
@@ -225,7 +227,34 @@ details > summary:-webkit-details-marker {
     width: 200px;
     height: 200px;
 }
+.bloqueDer p{
+    font-size: 15px;
+}
+.boton{
+    background-color: rgb(198, 208, 243);
+    text-decoration-color: rgb(0, 75, 173);
+    padding: 15px;
+    margin: 50px;
+    margin-left: 0;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    border-radius: 10%;
+}
+.boton:hover{
+    background-color: rgb(0, 75, 173);
+    text-decoration-color: white;
+}
+.boton a:hover{
+    color: white;
+}
+.boton a{
+    width: 80%;
+    height: 50px;
+    color: rgb(0, 75, 173);
+}
 .icon{
+    margin-right: 10px;
     text-align: center;
     padding: 10px;
     font-size: 25px;
@@ -234,26 +263,42 @@ details > summary:-webkit-details-marker {
     height: 50px;
     color: rgb(0, 75, 173);
     background-color: rgb(201, 223, 253);
+    border-radius: 10%;
 }
 .textoIzqB{
     margin-left: 50px;
     margin-top: 30%;
     width: 45%;
     height: 300px;
+    font-size: 25px;
+}
+.textoIzqB h2{
+    font-size: 35px;
 }
 .der{
     width: 47%;
     height: 100px;
     margin-left: 53%;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.der h2{
+    font-size: 30px;
 }
 .dere{
     margin-left: 53%;
     width: 47%;
     height: 300px;
 }
+.media{
+    margin: 50px;
+    margin-bottom: 80px;
+    padding: 50px;
+}
 .contRazons{
     width: 200%;
     margin: auto;
+    margin-bottom: 50px;
     padding: 50px;
 }
 .razons{
@@ -263,27 +308,44 @@ details > summary:-webkit-details-marker {
     gap: 25px;
     margin: 10px 0;
 }
+.razons h3{
+    font: bold;
+
+}
+.razons p{
+    font-size: 20px;
+}
+.razons i{
+    padding: 5px;
+    color: rgb(0, 75, 173);
+    background-color: rgb(201, 223, 253);
+}
 .bloqueC1{
-    width: 250px;
-    height: 200px;
+    width: 230px;
+    height: 300px;
 }
 .bloqueC2{
-    width: 250px;
-    height: 200px;
+    width: 230px;
+    height: 300px;
 }
 .bloqueC3{
-    width: 250px;
-    height: 200px;
+    width: 230px;
+    height: 300px;
 }
 .bloqueC4{
-    width: 250px;
-    height: 200px;
+    width: 230px;
+    height: 300px;
 }
 .formGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 25px;
     margin: 10px 0;
+}
+.formGrid i{
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 10%;
 }
 
 .formato{
@@ -319,34 +381,66 @@ details > summary:-webkit-details-marker {
     float: left;
 }
 .lema{
-    height: 300px;
     margin-top: 30px;
     margin-left: 50px;
     margin-right: 250px;
     width: 50%;
     font-size: large;
     font-family: sans-serif;
+    color: rgb(48, 48, 48);
 }
 
 .feet{
-    padding: auto;
+    margin-top: 300px;
+    background-color: rgb(148, 168, 255);
+    opacity: 80%;
 }
 .about{
     margin-top: 50px;
+    padding-left: 50px;
 }
 .company{
     margin-top: 50px;
+    padding-left: 50px;
 }
 .support{
     margin-top: 50px;
+    padding-left: 50px;
 }
 
 .gridFoot{
     width: 100%;
-    font-size: small;
-    background-color: rgb(148, 168, 255);
     margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 25px;
 }
+.gridFoot a{
+    font-size: 15px;
+    font: bold;
+    color: rgb(48, 48, 48);
+}
+.gridFoot h3{
+    font-size: 20px;
+}
+.derechos{
+    padding: 30px;
+    color: rgb(48, 48, 48);
+}
+.agrements{
+    float: right;
+    text-align: right;
+    padding: 30px;
+}
+.agrements a{
+    color: rgb(48, 48, 48);
+
+}
+.policy{
+    float: right;
+    text-align: right;
+    padding: 30px;
+}
+.policy a{
+    color: rgb(48, 48, 48);
+}
+
